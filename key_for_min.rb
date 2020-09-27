@@ -3,13 +3,13 @@
 
 def key_for_min_value(names_hash)
   target = 500
-  host = ""
+  host = nil
   names_hash.collect do |name, value|
     if value < target
       target = value
       host = name
-    elsif value == nil
-      host = nil
+    else
+      host 
     end
   end
   host
