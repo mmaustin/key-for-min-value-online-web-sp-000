@@ -8,9 +8,8 @@ def key_for_min_value(names_hash)
     if value < target
       target = value
       host = name
-    elsif
-      value == nil
-      nil
+    else
+      host = nil
     end
   end
   host
