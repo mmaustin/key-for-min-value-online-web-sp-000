@@ -6,7 +6,7 @@ def key_for_min_value(names_hash)
   names_hash.collect do |name, value|
     if value < target
       target = value
-      print name
+      name
     end
   end
 end
