@@ -10,7 +10,7 @@ def key_for_min_value(names_hash)
       host = name
     elsif
       value == nil
-      nil      
+      nil
     end
   end
   host
